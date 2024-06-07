@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>THREE COLUMN SIDBAR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/custom-style.css">
+    <link rel="stylesheet" href="assets/css/special-classes.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <style>
+        .carousel-inner img {
+            width: 100%;
+            /* Ensures the image takes the full width of its container */
+            height: auto;
+            /* Maintains the aspect ratio */
+        }
+
+        .post-item-wrap {
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            /* Allows the items to wrap to the next line if necessary */
+        }
+
+        .post-item-wrap .lower-portion {
+            margin-left: 20px;
+            text-align: left;
+            flex: 1;
+            /* Allows the text portion to grow and fill available space */
+        }
+
+        .carousel {
+            flex-shrink: 0;
+            width: 50%;
+            /* Adjust this value as needed */
+        }
+
+        @media (max-width: 767px) {
+            .post-item-wrap {
+                flex-direction: column;
+                /* Stack items vertically on small screens */
+                align-items: center;
+                /* Center align the items */
+            }
+
+            .post-item-wrap .lower-portion {
+                margin-left: 0;
+                margin-top: 10px;
+                text-align: center;
+                /* Center align text for better readability on small screens */
+            }
+
+            .carousel {
+                width: 100%;
+                /* Ensures full width on smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header  -->
+    <!-- Preloader -->
+    <div class="loader-mask">
+        <div class="loader">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Preloader -->
+    <!-- HEADER SECTION START HERE -->
+    <div class="header2-main-con header-main-con w-100 float-left">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <figure class="mb-0">
+                        <img src="assets/images/banners/logo.png" alt="header-logo" loading="lazy" width="300px" height="75px">
+                    </figure>
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav font-weight-bold">
+                        <li>
+                            <a class="nav-link   p-0 " href="index.html"  role="button"
+                                >
+                                HOME
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-0 " href="about.html">ABOUT</a>
+                        </li>
+                        
+                        <li >
+                            <a class="nav-link active p-0" href="activity.html"  role="button"
+                               > ACTIVITIES
+                            </a>
+                        </li>
+                        <li >
+                            <a class="nav-link  p-0" href="gallery.html"  role="button"
+                               > GALLERY
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-0" href="contact.html">CONTACT</a>
+                        </li>
+
+                    </ul>
+                </div>
+               
+            </nav>
+        </div>
+    </div>
+    <!-- HEADER SECTION END HERE -->
+    <!-- BANNER SECTION START HERE -->
+    <section class="sub-banner-section w-100 float-left">
+        <div class="container-fluid">
+            <div class="sub-banner-inner-con">
+                <div class="sub-banner-left-con">
+                    <h1 data-aos="fade-up" data-aos-duration="700">ACTIVITIES</h1>
+                    <p data-aos="fade-up" data-aos-duration="700">Welcome To The Heart Of Democracy, Where Every Voice
+                        Resonates And Every Vote Shapes The Destiny Of Our Nation.</p>
+                    <nav aria-label="breadcrumb" data-aos="fade-up" data-aos-duration="700">
+                        <ol class="breadcrumb d-inline-block">
+                            <li class="breadcrumb-item d-inline-block"><a href="index.html">HOME</a></li>
+                            <li class="breadcrumb-item active text-white d-inline-block" aria-current="page">THREE
+                                COLUMN SIDBAR</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="sub-banner-right-con">
+ 
+                    <figure class="mb-0">
+                        <img src="assets/images/banners/breadcrum_punyadr.png" alt="sub-banner-right-man-img">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BANNER SECTION END HERE -->
+
+    <section class="blog-posts blogpage-section w-100 float-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 col-lg-9">
+                    <div id="blog" class="three-column col-xl-12">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12" data-aos="fade-up" data-aos-duration="700">
+                                <div class="blog-box threecolumn-blog">
+                                    <div class="post-item-wrap position-relative d-flex flex-row align-items-ce">
+                                        <div id="blogslider" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/activities/a1/cancer1.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <div class="carousel-item active carousel-item-left">
+                                                    <img src="assets/images/activities/a1/cancer2.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <div class="carousel-item carousel-item-next carousel-item-left">
+                                                    <img src="assets/images/activities/a1/cancer3.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <!--carousel-inner-->
+                                            </div>
+                                            <!-- Left and right controls -->
+                                            <a class="carousel-control-prev" href="#blogslider" data-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#blogslider" data-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </a>
+                                            <!--blogslider-->
+                                        </div>
+                                        <div class="lower-portion ml-3 text-left">
+                                            <h4 style="color: #009134;">Cancer Detection Camp For Women and Blood
+                                                Donation Camp 2003</h4>
+                                            <p class="mb-0 text-size-16">
+                                                Cancer is a devastating disease that affects millions of people around
+                                                the world. But with early detection, the chances of survival are
+                                                significantly higher.
+                                            </p>
+                                        </div>
+                                        <!--post-item-wrap-->
+                                    </div>
+                                    <!--post-item-->
+                                </div>
+                                <!--col-->
+                            </div>
+
+                            <div class="col-xl-12 col-lg-12 col-md-12" data-aos="fade-up" data-aos-duration="700">
+                                <div class="blog-box threecolumn-blog">
+                                    <div class="post-item-wrap position-relative d-flex flex-row align-items-start">
+                                        <div class="lower-portion ml-3 text-left">
+                                            <h4 style="color: #009134;">Blood Donation and Mega Health Camp 2004</h4>
+                                            <p class="mb-0 text-size-16">
+                                                In association with Punya Hospital, Naipunya conducted the camp. MP Smt
+                                                Thejaswini Ramesh, was the chief guest of the event, along with local
+                                                leaders of all parties. Our professors, teachers, and staff took an
+                                                active part in the camp that provides efficient results to several needy
+                                                people.
+                                            </p>
+                                        </div>
+                                        <div id="blogslider2" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/activities/a2/blood1.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <div class="carousel-item active carousel-item-left">
+                                                    <img src="assets/images/activities/a2/blood2.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <div class="carousel-item carousel-item-next carousel-item-left">
+                                                    <img src="assets/images/activities/a2/blood3.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <!--carousel-inner-->
+                                            </div>
+                                            <!-- Left and right controls -->
+                                            <a class="carousel-control-prev" href="#blogslider2" data-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#blogslider2" data-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </a>
+                                            <!--blogslider-->
+                                        </div>
+
+                                        <!--post-item-wrap-->
+                                    </div>
+                                    <!--post-item-->
+                                </div>
+                                <!--col-->
+                            </div>
+
+
+                            <div class="col-xl-12 col-lg-12 col-md-12" data-aos="fade-up" data-aos-duration="700">
+                                <div class="blog-box threecolumn-blog">
+                                    <div class="post-item-wrap position-relative d-flex flex-row align-items-start">
+                                        <div id="blogslider3" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/activities/a3/cultural1.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <div class="carousel-item active carousel-item-left">
+                                                    <img src="assets/images/activities/a3/cultural2.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <div class="carousel-item carousel-item-next carousel-item-left">
+                                                    <img src="assets/images/activities/a3/cultural3.jpeg"  alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <!--carousel-inner-->
+                                            </div>
+                                            <!-- Left and right controls -->
+                                            <a class="carousel-control-prev" href="#blogslider3" data-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#blogslider3" data-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </a>
+                                            <!--blogslider-->
+                                        </div>
+                                        <div class="lower-portion ml-3 text-left">
+                                            <h4 style="color: #009134;">Cultural and Sports Meet 2005</h4>
+                                            <p class="mb-0 text-size-16">
+                                                The Naipunya foundation's latest event was a smashing success, as they
+                                                organized a cultural and sports meet for children. The event was full of
+                                                energy and enthusiasm, as the children showcased their talents in a
+                                                variety of sports and cultural activities. The foundation's efforts in
+                                                organizing this event have made a lasting impact on the children.
+                                            </p>
+                                        </div>
+                                        <!--post-item-wrap-->
+                                    </div>
+                                    <!--post-item-->
+                                </div>
+                                <!--col-->
+                            </div>
+
+
+                            <div class="col-xl-12 col-lg-12 col-md-12" data-aos="fade-up" data-aos-duration="700">
+                                <div class="blog-box threecolumn-blog">
+                                    <div class="post-item-wrap position-relative d-flex flex-row align-items-start">
+                                        <div class="lower-portion ml-3 text-left">
+                                            <h4 style="color: #009134;">Initiated Laparoscopic Learning 2006</h4>
+                                            <p class="mb-0 text-size-16">
+                                                Our Naipunya foundation is leading the way in laparoscopic surgery
+                                                education, empowering surgeons to provide safer, less invasive
+                                                procedures for their patients.
+                                                We initiated laparoscopic learning with the help of teachers and friends
+                                                in early 2006.
+                                            </p>
+                                        </div>
+                                        <div id="blogslider4" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/activities/a4/lapsur1.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <div class="carousel-item active carousel-item-left">
+                                                    <img src="assets/images/activities/a4/lapsur2.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <!--carousel-inner-->
+                                            </div>
+                                            <!-- Left and right controls -->
+                                            <a class="carousel-control-prev" href="#blogslider4" data-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#blogslider4" data-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </a>
+                                            <!--blogslider-->
+                                        </div>
+
+                                        <!--post-item-wrap-->
+                                    </div>
+                                    <!--post-item-->
+                                </div>
+                                <!--col-->
+                            </div>
+
+                           
+
+                            <div class="col-xl-12 col-lg-12 col-md-12" data-aos="fade-up" data-aos-duration="700">
+                                <div class="blog-box threecolumn-blog">
+                                    <div class="post-item-wrap position-relative d-flex flex-row align-items-start">
+                                        <div id="blogslider5" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/activities/a5/clinic3.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <div class="carousel-item active carousel-item-left">
+                                                    <img src="assets/images/activities/a5/clinic2.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <!--carousel-inner-->
+                                            </div>
+                                            <!-- Left and right controls -->
+                                            <a class="carousel-control-prev" href="#blogslider5" data-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#blogslider5" data-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </a>
+                                            <!--blogslider-->
+                                        </div>
+                                        <div class="lower-portion ml-3 text-left">
+                                            <h4 style="color: #009134;">We Opened New Clinic In The Year 2007</h4>
+                                            <p class="mb-0 text-size-16">
+                                                Our new clinic is blessed by a spiritual leader. We're thrilled to announce that Sri Sri Sri Balagandahranatha Swamiji has blessed our new clinic. With his divine guidance, we're excited to continue providing quality healthcare to those in need.
+                                            </p>
+                                        </div>
+                                        <!--post-item-wrap-->
+                                    </div>
+                                    <!--post-item-->
+                                </div>
+                                <!--col-->
+                            </div>
+
+                            <div class="col-xl-12 col-lg-12 col-md-12" data-aos="fade-up" data-aos-duration="700">
+                                <div class="blog-box threecolumn-blog">
+                                    <div class="post-item-wrap position-relative d-flex flex-row align-items-start">
+                                        <div class="lower-portion ml-3 text-left">
+                                            <h4 style="color: #009134;">Improving the lives of underprivileged children</h4>
+                                            <p class="mb-0 text-size-16">
+                                                Naipunya Foundation is a non-profit organization dedicated to improving the lives of underprivileged children in India. One of the foundation's key initiatives is its "Education for All" program, which seeks to provide access to education for children who may not otherwise have the means to attend school.
+                                            </p>
+                                        </div>
+                                        <div id="blogslider6" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/activities/a6/foundation1.jpg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <div class="carousel-item active carousel-item-left">
+                                                    <img src="assets/images/activities/a6/foundation2.jpg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <div class="carousel-item carousel-item-next carousel-item-left">
+                                                    <img src="assets/images/activities/a6/foundation3.jpg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <!--carousel-inner-->
+                                            </div>
+                                            <!-- Left and right controls -->
+                                            <a class="carousel-control-prev" href="#blogslider6" data-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#blogslider6" data-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </a>
+                                            <!--blogslider-->
+                                        </div>
+
+                                        <!--post-item-wrap-->
+                                    </div>
+                                    <!--post-item-->
+                                </div>
+                                <!--col-->
+                            </div>
+
+                            <div class="col-xl-12 col-lg-12 col-md-12" data-aos="fade-up" data-aos-duration="700">
+                                <div class="blog-box threecolumn-blog">
+                                    <div class="post-item-wrap position-relative d-flex flex-row align-items-start">
+                                        <div id="blogslider7" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/activities/a7/health1.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <div class="carousel-item active carousel-item-left">
+                                                    <img src="assets/images/activities/a7/health2.jpeg" alt=""
+                                                        loading="lazy">
+                                                    <!--carousel-item-->
+                                                </div>
+                                                <!--carousel-inner-->
+                                            </div>
+                                            <!-- Left and right controls -->
+                                            <a class="carousel-control-prev" href="#blogslider7" data-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#blogslider7" data-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </a>
+                                            <!--blogslider-->
+                                        </div>
+                                        <div class="lower-portion ml-3 text-left">
+                                            <h4 style="color: #009134;">Free Health Camp At Vidyananda Nagara</h4>
+                                            <p class="mb-0 text-size-16">
+                                                Naipunya Foundation, in association with Punya Hospital, organized a free health check-up camp for underprivileged communities in the region.
+                                            </p>
+                                        </div>
+                                        <!--post-item-wrap-->
+                                    </div>
+                                    <!--post-item-->
+                                </div>
+                                <!--col-->
+                            </div>
+                            
+
+                            
+
+
+                        </div>
+                        <!--blog-->
+                    </div>
+                </div>
+
+
+
+                <!--row-->
+            </div>
+        </div>
+        <!--container-->
+    </section>
+
+
+
+    <!-- FOOTER SECTION START HERE -->
+    <div class="footer-main-section w-100 float-left padding-top">
+        <div class="container">
+            <div class="footer-inner-con">
+                <div class="footer-logo-box">
+                    <a href="index.html">
+                        <figure>
+                            <img src="assets/images/banners/logo.png" alt="header-logo" width="214" height="60">
+                        </figure>
+                    </a>
+                    <p>Compassionate leadership, community-driven solutions <br> - Dr. Punyavathi's prescription for a healthier, more equitable future.</p>
+                    <div class="header-contact-btn">
+                        <a href="tel:+919900061061"><i class="fas fa-phone-alt"></i>919900061061</a>
+                    </div>
+                </div>
+                <div class="footer-list-box footer-links">
+                    <span class="small-txt d-block position-relative">SOCIAL HANDLES</span>
+                    <ul class="list-unstyled mb-0">
+                        <li class="position-relative"><a href="#">Facebook</a></li>
+                        <li class="position-relative"><a href="#">Twitter</a></li>
+                        <li class="position-relative"><a href="#">Instagram</a></li>
+                        <li class="position-relative"><a href="#">linkedin</a></li>
+                        <li class="position-relative"><a href="#">Whatsapp</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list-box footer-links">
+                    <span class="small-txt d-block position-relative">QUICK LINKS</span>
+                    <ul class="list-unstyled mb-0">
+                        <li class="position-relative"><a href="index.html">Home</a></li>
+                        <li class="position-relative"><a href="about.html">About Us</a></li>
+                        <li class="position-relative"><a href="activity.html">activities</a></li>
+                        <li class="position-relative"><a href="gallery.html">Gallery</a></li>
+                        <li class="position-relative"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list-box footer-contact-box">
+                    <span class="small-txt d-block position-relative">CONTACT US</span>
+                    <ul class="list-unstyled">
+                        <li class="position-relative location"><i class="fas fa-map-marked-alt"></i> <a href="https://www.google.com/maps?ll=12.98608,77.537499&z=16&t=m&hl=en&gl=IN&mapclient=embed&cid=12902538234183700296" target="_blank">52/10,
+                            80 Feet Ring Rd <br>, 2nd Stage,
+                            KHB Colony, Basaveshwar Nagar,
+                            Bengaluru, Karnataka </a></li>
+                        <li class="position-relative mail-address"><i class="fas fa-envelope"></i> <a href="mailto:punyahospitalsindia@gmail.com">punyahospitalsindia@gmail.com</a></li>
+                    </ul>
+                    <div class="footer-social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-inner-con">
+                <p class="mb-0">Copyright ©2024 <span class="d-inline-block">Punyavathi</span> All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER SECTION END HERE -->
+    <a id="button"></a>
+    <!-- Latest compiled JavaScript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/custom.js"></script>
+    
+    <script>
+        $(window).on('load', function () {
+            // Preloader
+            $('.loader').fadeOut();
+            $('.loader-mask').delay(350).fadeOut('slow');
+        });
+    </script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        var btn = $('#button');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            }
+            else {
+                btn.removeClass('show');
+            }
+        });
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+    </script>
+</body>
+
+</html>
